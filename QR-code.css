@@ -84,3 +84,13 @@ article {
   align-items: center;
   height: 1000px;
 }
+
+@media (min-width: 768px) {
+
+  .article {
+    position: fixed;
+	  top: 0;
+	  height: 100%;
+	  width: 33.3%;
+	}
+}
