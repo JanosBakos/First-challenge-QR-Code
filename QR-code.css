@@ -43,13 +43,13 @@ table {
 
 body {
   background-color: #d5e1ef;
-  
 }
+
 
 .primary-content {
   background-color: white;
   width: 200px;
-  height: 350px;
+  height: 320px;
   max-width: calc(100vw -20px);
   border-radius: 5%;
 }
@@ -63,18 +63,24 @@ body {
 
 h1 {
   text-align: center;
-  font-family: Semplicita Pro,Open Sans,Arial,Helvetica,sans-serif;
-  font-size: 1em;
-  margin-top: 10px;
+  font-family: Semplicita Pro,Open Sans,Arial,Helvetica, sans-serif;
+  font-size: .9em;
+  font-weight: bold;
+  margin-top: 7px;
+  margin-left: 5px;
+  margin-right: 5px;
   color: #192847;
 }
 
 h2 {
   text-align: center;
   font-family: Semplicita Pro,Open Sans,Arial,Helvetica,sans-serif;
-  font-size: 0.8em;
-  margin-top: 5px;
-  padding: 0.5rem;
+  font-size: 0.7em;
+  margin-top: 10px;
+  padding: .3rem;
+  margin-left: 4px;
+  margin-right: 4px;
+  opacity: 60%;
   color: #80838c;
 }
 
@@ -86,9 +92,8 @@ article {
 }
 
 @media (min-width: 768px) {
-
-  .article {
-    position: fixed;
+    .article {
+      position: fixed;
 	  top: 0;
 	  height: 100%;
 	  width: 33.3%;
